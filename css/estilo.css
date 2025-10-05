@@ -1,0 +1,132 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Play:wght@400;700&family=Skranji:wght@400;700&family=Tagesschrift&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&family=Skranji:wght@400;700&family=Tagesschrift&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caesar+Dressing&display=swap');
+*{
+	padding: 0px;
+	margin: 0px;
+
+}
+body{
+	background-color:red;
+}
+p{
+	text-align: center;
+	font-family: "Lucida Handwriting",cursive;
+	font-size: 2em;
+	line-height: auto;
+}
+h1{
+	text-align: center;
+	font-family: "Lucida Handwriting",cursive;
+	font-size: auto;
+	letter-spacing: 3%;
+	text-decoration: underline;
+	text-transform: uppercase;
+	color: red;
+	text-shadow:10px 10px 6px black; /* x y espessura cor */
+}
+a{
+	width: auto;
+	height: auto;
+	text-align: center;
+    text-decoration: none;
+    color:white;
+    font-size: auto;
+    background-color:darkred;
+}
+a:hover{
+    background-color: #641EEB;
+}
+body{
+	background:radial-gradient(darkred, white);
+}
+section{
+	display: flex;
+	justify-content: center;
+}
+section.cabecalho{
+	width: 60vw;
+	height: 20vh;
+	border: transparent; /*
+    solid(normal) dashed(tracejado)
+    dotted(pontilhado) ridge/groove(contraste/efeito)
+    inset/outset(efeito 3d)*/
+    margin-left: 20vw;
+    margin-right: 20vw;
+    margin-top: 5vh;
+}
+section.cabecalho h1{
+	font-size: 2em;
+}
+section.conteudo h1{
+	font-size: 2em;
+	padding-top: 80%;
+    font-family: "Roboto", sans-serif;
+}
+section.conteudo{
+	width: 80vw;
+	height: 60vh;
+	margin-left: 50%;
+	border: 6px solid red;
+	background-color: black;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+section.conteudo2{
+	width: auto;
+	height: 30vh;
+	margin-left: auto;
+	border: transparent;
+	margin-top: auto;
+	background-color: transparent;
+}
+#texto{
+	width: 50vw;
+	height: auto;
+    border: red;
+    text-align: center;
+    display: block;
+	font-family: "Lucida Handwriting",cursive ;
+	color:darkred;
+	font-size:1rem;
+}
+#imagem{
+	width: auto;
+	height :auto;
+}
+#imagem img{
+	width: auto;
+	height: auto;
+	margin-top: 15vh;
+}
+section.menu div{
+	width: 60%;
+	background-color: black;
+	border: 2px solid white;
+	margin-left: 20%;
+	margin-bottom: 3%;
+	border-radius: 16px;
+}
+section.conteudo{
+	width:50vw;
+	height:55vh;
+	margin-left:20vw;
+	background-color: rgb(255, 255, 255 / 0.5);
+	margin-top:1vh;
+	border-radius:16px;
+	flex-direction: column;
+	text-align: center;
+}
+section.botao{
+	width: auto;
+	height: auto;
+	margin-top:30vh;
+	flex-direction: column;
+	text-align: center;
+}
+body{
+	background: linear-gradient(to right, darkred,black);
+	background-color: darkred;
+}
